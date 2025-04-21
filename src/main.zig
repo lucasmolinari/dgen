@@ -1,6 +1,5 @@
 const std = @import("std");
 const lib = @import("dgen_lib");
-const builtin = @import("builtin");
 
 pub fn main() !void {
     const args = try std.process.argsAlloc(std.heap.page_allocator);
